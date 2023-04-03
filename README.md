@@ -31,7 +31,7 @@ const Component = () => {
 
 ## Example
 
-TODO: add example codesandbox
+https://kymdg1-5173.csb.app/
 
 ## License
 
