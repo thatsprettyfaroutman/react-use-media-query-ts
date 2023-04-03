@@ -13,17 +13,15 @@ npm i react-use-media-query-ts
 ```jsx
 import useMediaQuery from 'react-use-media-query-ts'
 
-const Component = () => {
+function App() {
   const darkMode = useMediaQuery('(prefers-color-scheme: dark)')
   const mobile = useMediaQuery('(max-width: 768px)')
 
-  const style = darkMode
-    ? { color: 'white', backgroundColor: 'black' }
-    : { color: 'black', backgroundColor: 'white' }
+  const style = { color: darkMode ? 'white' : 'black' }
 
   return (
     <div style={style}>
-      Seems like you're {!mobile && 'not'} using a mobile device
+      Seems like you're {!mobile && <strong>not</strong>} using a mobile device
     </div>
   )
 }
