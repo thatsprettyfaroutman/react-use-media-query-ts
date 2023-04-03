@@ -1,6 +1,6 @@
 {
   "name": "react-use-media-query-ts",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "React custom hook for match Media queries with Typescript support",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
