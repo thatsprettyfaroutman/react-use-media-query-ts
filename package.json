@@ -1,7 +1,7 @@
 {
-  "name": "rollup-react-starter-lib-ts",
-  "version": "1.0.4",
-  "description": "Rolllup template for creating your react/typescript library",
+  "name": "react-use-media-query-ts",
+  "version": "0.0.1",
+  "description": "React custom hook for match Media queries with Typescript support",
   "main": "./lib/cjs/index.js",
   "module": "./lib/esm/index.js",
   "types": "./lib/esm/index.d.ts",
@@ -26,16 +26,24 @@
   },
   "repository": {
     "type": "git",
-    "url": "https://github.com/thiswallz/rollup-react-starter-lib-ts"
+    "url": "https://github.com/thatsprettyfaroutman/react-use-media-query-ts"
   },
-  "author": "Mau BJW",
+  "author": "Viljami Anttonen (@thatsprettyfaroutman)",
   "license": "MIT",
   "keywords": [
-    "react-template",
-    "react-library",
-    "typescript",
     "react",
-    "template"
+    "hooks",
+    "hook",
+    "matchmedia",
+    "match media",
+    "mediaquery",
+    "media query",
+    "match",
+    "media",
+    "query",
+    "media query",
+    "typescript",
+    "ts"
   ],
   "peerDependencies": {
     "react": "^16 || ^17 || ^18",
